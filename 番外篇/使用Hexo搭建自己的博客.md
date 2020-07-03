@@ -350,3 +350,14 @@ jackfrued.top
 ```
 
 可以清理一下之前生成的内容，然后将项目重新生成并发布到GitHub就大功告成了！现在我们已经拥有了独立域名的博客，希望大家可以利用它做些有意义的事情（记录自己的成长历程、分享自己的工作经验、提升个人的影响力）。加油吧，程序员！
+
+### 部署至 Netlify
+
+1. 打开 [Netlify 的官方网站](https://www.netlify.com/), 用 Github 账号登录。
+2. 点击 New site from Git，进入 Create a new site 页面。
+   - 进入 Connect to Git provider 页面，选择 GitHub。
+   - 在Pick a repository 页面，选择你刚刚创建的博客存储库。
+   - 在Build options, and deploy!的位置，Netlify 会检测到是 Hexo 项目，然后会自动配置。点击Deploy site按钮即可。
+
+3. 最后会看到一个界面,此时我们应该能看见 Netlify 自动分配了一个域名:`https://xxxx.netlify.com`,
+4. 如果希望绑定自己的域名，可以参阅 Netlify 的官方文档：[Netlify Docs: custom-domains](https://docs.netlify.com/domains-https/custom-domains/#definitions)
